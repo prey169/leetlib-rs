@@ -1,14 +1,8 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+pub mod lc_0001_two_sum;
+pub use lc_0001_two_sum::*;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub mod lc_0002_add_two_numbers;
+pub use lc_0002_add_two_numbers::*;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub mod lc_0088_merge_sorted_array;
+pub use lc_0088_merge_sorted_array::*;
