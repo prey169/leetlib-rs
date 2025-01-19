@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "leetlib_rs"
+name = "leetlib"
 version = "0.1.0"

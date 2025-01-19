@@ -20,26 +20,41 @@ pub fn add_two_numbers(
     let mut carry = 0;
 
     let mut l1 = l1;
-    let mut l2 = l2; 
+    let mut l2 = l2;
 
     while l1.is_some() || l2.is_some() || carry != 0 {
-        let sum = l1.as_ref().map_or(0, |x| x.val) + l2.as_ref().map_or(0, |x| x.val) + carry; 
+        let sum = l1.as_ref().map_or(0, |x| x.val) + l2.as_ref().map_or(0, |x| x.val) + carry;
         carry = sum / 10;
 
         let some_node = curr.insert(Box::new(ListNode::new(sum % 10)));
-        
+
+        curr = &mut some_node.next;
+
         l1 = l1.and_then(|n| n.next);
         l2 = l2.and_then(|n| n.next);
-
-
     }
     head
 }
 
 #[test]
 fn ex1() {
-    let mut l1 = Box::new(ListNode::new(2))
-    l1.inse ListNode::new(4, ListNode::new(3))));
-    let l2 = [5,6,4];
-    assert_eq!(add_two_numbers(l1, l2), [7,0,8]) 
+    let mut l1: Option<Box<ListNode>> = None;
+    let curr_l1 = &mut l1;
+    curr_l1.insert(Box::new(ListNode::new(3)));
+    curr_l1.insert(Box::new(ListNode::new(4)));
+    curr_l1.insert(Box::new(ListNode::new(2)));
+
+    let mut l2: Option<Box<ListNode>> = None;
+    let curr_l2 = &mut l2;
+    curr_l2.insert(Box::new(ListNode::new(4)));
+    curr_l2.insert(Box::new(ListNode::new(6)));
+    curr_l2.insert(Box::new(ListNode::new(5)));
+
+    let mut l3: Option<Box<ListNode>> = None;
+    let curr_l3 = &mut l3;
+    curr_l3.insert(Box::new(ListNode::new(8)));
+    curr_l3.insert(Box::new(ListNode::new(0)));
+    curr_l3.insert(Box::new(ListNode::new(7)));
+
+    assert_eq!(add_two_numbers(l1, l2), l3)
 }
