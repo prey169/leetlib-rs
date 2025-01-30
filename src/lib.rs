@@ -9,3 +9,6 @@ pub use lc_0088_merge_sorted_array::*;
 
 pub mod lc_0383_random_note;
 pub use lc_0383_random_note::*;
+
+pub mod lc_0125_valid_palindrome;
+pub use lc_0125_valid_palindrome::*;

@@ -1,15 +1,17 @@
 pub fn can_construct(ransom_note: String, magazine: String) -> bool {
-    let mut ransom_note = ransom_note;
-    for char in magazine.chars() {
-        for (count, char2) in ransom_note.chars().enumerate() {
-            if char == char2 {
-                ransom_note.remove(count);
-                break;
-            }
+    let mut dict = std::collections::HashMap::new();
+
+    for c in magazine.chars() {
+        dict.entry(c).and_modify(|count| *count += 1).or_insert(1);
+    }
+
+    for c in ransom_note.chars() {
+        match dict.get_mut(&c) {
+            Some(count) if *count > 0 => *count -= 1,
+            _ => return false,
         }
     }
-    println!("{}", ransom_note);
-    ransom_note.is_empty()
+    true
 }
 
 #[cfg(test)]
