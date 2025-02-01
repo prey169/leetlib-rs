@@ -12,3 +12,6 @@ pub use lc_0383_random_note::*;
 
 pub mod lc_0125_valid_palindrome;
 pub use lc_0125_valid_palindrome::*;
+
+pub mod lc_0035_search_insert_position;
+pub use lc_0035_search_insert_position::*;
