@@ -40,21 +40,21 @@ pub fn add_two_numbers(
 fn ex1() {
     let mut l1: Option<Box<ListNode>> = None;
     let curr_l1 = &mut l1;
-    curr_l1.insert(Box::new(ListNode::new(3)));
-    curr_l1.insert(Box::new(ListNode::new(4)));
-    curr_l1.insert(Box::new(ListNode::new(2)));
+    let _ = curr_l1.insert(Box::new(ListNode::new(3)));
+    let _ = curr_l1.insert(Box::new(ListNode::new(4)));
+    let _ = curr_l1.insert(Box::new(ListNode::new(2)));
 
     let mut l2: Option<Box<ListNode>> = None;
     let curr_l2 = &mut l2;
-    curr_l2.insert(Box::new(ListNode::new(4)));
-    curr_l2.insert(Box::new(ListNode::new(6)));
-    curr_l2.insert(Box::new(ListNode::new(5)));
+    let _ = curr_l2.insert(Box::new(ListNode::new(4)));
+    let _ = curr_l2.insert(Box::new(ListNode::new(6)));
+    let _ = curr_l2.insert(Box::new(ListNode::new(5)));
 
     let mut l3: Option<Box<ListNode>> = None;
     let curr_l3 = &mut l3;
-    curr_l3.insert(Box::new(ListNode::new(8)));
-    curr_l3.insert(Box::new(ListNode::new(0)));
-    curr_l3.insert(Box::new(ListNode::new(7)));
+    let _ = curr_l3.insert(Box::new(ListNode::new(8)));
+    let _ = curr_l3.insert(Box::new(ListNode::new(0)));
+    let _ = curr_l3.insert(Box::new(ListNode::new(7)));
 
     assert_eq!(add_two_numbers(l1, l2), l3)
 }
