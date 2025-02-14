@@ -24,3 +24,6 @@ pub use lc_0704_binary_search::*;
 
 pub mod lc_0744_find_smallest_letter_greater_than_target;
 pub use lc_0744_find_smallest_letter_greater_than_target::*;
+
+pub mod lc_1480_running_sum_of_1d_array;
+pub use lc_1480_running_sum_of_1d_array::*;
