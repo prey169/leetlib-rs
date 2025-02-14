@@ -21,3 +21,6 @@ pub use lc_0383_random_note::*;
 
 pub mod lc_0704_binary_search;
 pub use lc_0704_binary_search::*;
+
+pub mod lc_0744_find_smallest_letter_greater_than_target;
+pub use lc_0744_find_smallest_letter_greater_than_target::*;
