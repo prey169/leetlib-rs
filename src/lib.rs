@@ -15,3 +15,6 @@ pub use lc_0125_valid_palindrome::*;
 
 pub mod lc_0035_search_insert_position;
 pub use lc_0035_search_insert_position::*;
+
+pub mod lc_0074_search_a_2d_matrix;
+pub use lc_0074_search_a_2d_matrix::*;
