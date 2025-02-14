@@ -4,8 +4,8 @@ pub fn search_matrix(matrix: Vec<Vec<i32>>, target: i32) -> bool {
 
     let mut min = 0;
     let mut max = outer_max_length * inner_len - 1;
-    let mut min: i32;
-    let mut min_value: i32;
+    let mut mid: i32;
+    let mut mid_value: i32;
 
     while min <= max {
         mid = min + (max - min) / 2;
@@ -23,7 +23,7 @@ pub fn search_matrix(matrix: Vec<Vec<i32>>, target: i32) -> bool {
 
 #[cfg(test)]
 mod test {
-    use crate::search_matrix;
+    use super::search_matrix;
 
     #[test]
     fn ex1() {
