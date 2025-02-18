@@ -1,21 +1,4 @@
-// Definition for a binary tree node.
-#[derive(Debug, PartialEq, Eq)]
-pub struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
+use crate::TreeNode;
 use std::cell::RefCell;
 use std::cmp;
 use std::rc::Rc;
@@ -29,5 +12,16 @@ pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
             )
         }
         None => 0,
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn ex1() {
+        let tree = TreeNode::from_vec(&vec![3, 9, 20, i32::MIN, i32::MIN, 15, 7]);
+        assert_eq!(max_depth(tree), 3)
     }
 }

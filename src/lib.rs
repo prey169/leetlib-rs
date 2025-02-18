@@ -1,3 +1,6 @@
+pub mod utils;
+pub use utils::*;
+
 pub mod lc_0001_two_sum;
 pub use lc_0001_two_sum::*;
 
@@ -22,11 +25,14 @@ pub use lc_0104_maximum_depth_of_binary_tree::*;
 pub mod lc_0125_valid_palindrome;
 pub use lc_0125_valid_palindrome::*;
 
-pub mod lc_0374_guess_number_higher_or_lower;
-pub use lc_0374_guess_number_higher_or_lower::*;
+// pub mod lc_0374_guess_number_higher_or_lower;
+// pub use lc_0374_guess_number_higher_or_lower::*;
 
 pub mod lc_0383_random_note;
 pub use lc_0383_random_note::*;
+
+pub mod lc_0637_average_of_levels_in_binary_tree;
+pub use lc_0637_average_of_levels_in_binary_tree::*;
 
 pub mod lc_0704_binary_search;
 pub use lc_0704_binary_search::*;
