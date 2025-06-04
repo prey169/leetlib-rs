@@ -21,7 +21,7 @@ mod test {
 
     #[test]
     fn ex1() {
-        let tree = TreeNode::from_vec(&vec![3, 9, 20, i32::MIN, i32::MIN, 15, 7]);
+        let tree = TreeNode::from_vec(&[3, 9, 20, i32::MIN, i32::MIN, 15, 7]);
         assert_eq!(max_depth(tree), 3)
     }
 }

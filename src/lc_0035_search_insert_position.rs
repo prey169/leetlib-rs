@@ -17,11 +17,11 @@ pub fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
                 return (min) as i32;
             };
         } else if nums[mid] > target {
-            max = mid as usize;
+            max = mid;
             mid = (min + max) / 2;
         } else {
             // if nums[mid] < target {
-            min = mid as usize;
+            min = mid;
             mid = (max + min) / 2;
         };
     }

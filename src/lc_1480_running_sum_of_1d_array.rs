@@ -2,7 +2,7 @@ pub fn running_sum(nums: Vec<i32>) -> Vec<i32> {
     let mut output: Vec<i32> = vec![];
     let mut sum: i32 = 0;
     for num in &nums {
-        sum = num + sum;
+        sum += num;
         output.push(sum);
     }
     output

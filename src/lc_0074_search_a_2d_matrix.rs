@@ -27,43 +27,37 @@ mod test {
 
     #[test]
     fn ex1() {
-        assert_eq!(
-            search_matrix(
-                vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
-                3
-            ),
-            true
-        );
+        assert!(search_matrix(
+            vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
+            3
+        ),);
     }
 
     #[test]
     fn ex2() {
-        assert_eq!(
-            search_matrix(
-                vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
-                13
-            ),
-            false
-        );
+        assert!(!search_matrix(
+            vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
+            13
+        ),);
     }
 
     #[test]
     fn ex3() {
-        assert_eq!(search_matrix(vec![vec![1, 3]], 1), true);
+        assert!(search_matrix(vec![vec![1, 3]], 1));
     }
 
     #[test]
     fn ex4() {
-        assert_eq!(search_matrix(vec![vec![1, 3]], 3), true);
+        assert!(search_matrix(vec![vec![1, 3]], 3));
     }
 
     #[test]
     fn ex5() {
-        assert_eq!(search_matrix(vec![vec![1], vec![3], vec![5]], 5), true);
+        assert!(search_matrix(vec![vec![1], vec![3], vec![5]], 5));
     }
 
     #[test]
     fn ex6() {
-        assert_eq!(search_matrix(vec![vec![1]], 0), false);
+        assert!(!search_matrix(vec![vec![1]], 0));
     }
 }
