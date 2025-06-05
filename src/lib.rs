@@ -43,5 +43,8 @@ pub use lc_0744_find_smallest_letter_greater_than_target::*;
 pub mod lc_1480_running_sum_of_1d_array;
 pub use lc_1480_running_sum_of_1d_array::*;
 
+pub mod lc_1742_maxiumum_number_of_balls_in_a_box;
+pub use lc_1742_maxiumum_number_of_balls_in_a_box::*;
+
 pub mod lc_2894_divisible_and_non_divisible_sums_difference;
 pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
