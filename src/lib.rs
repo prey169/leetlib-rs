@@ -64,6 +64,9 @@ pub use lc_0744_find_smallest_letter_greater_than_target::*;
 pub mod lc_1480_running_sum_of_1d_array;
 pub use lc_1480_running_sum_of_1d_array::*;
 
+pub mod lc_1502_can_make_arithmetic_progression_from_sequence;
+pub use lc_1502_can_make_arithmetic_progression_from_sequence::*;
+
 pub mod lc_1742_maxiumum_number_of_balls_in_a_box;
 pub use lc_1742_maxiumum_number_of_balls_in_a_box::*;
 
