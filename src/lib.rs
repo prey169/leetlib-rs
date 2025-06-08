@@ -37,6 +37,9 @@ pub use lc_0637_average_of_levels_in_binary_tree::*;
 pub mod lc_0704_binary_search;
 pub use lc_0704_binary_search::*;
 
+pub mod lc_0709_to_lower_case;
+pub use lc_0709_to_lower_case::*;
+
 pub mod lc_0744_find_smallest_letter_greater_than_target;
 pub use lc_0744_find_smallest_letter_greater_than_target::*;
 
