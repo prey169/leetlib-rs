@@ -10,11 +10,7 @@ pub fn array_sign(nums: Vec<i32>) -> i32 {
             1.. => continue,
         }
     }
-    match sum {
-        0 => 0,
-        1.. => 1,
-        ..0 => -1,
-    }
+    sum
 }
 
 #[cfg(test)]
