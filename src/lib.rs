@@ -37,6 +37,9 @@ pub use lc_0389_find_the_difference::*;
 pub mod lc_0383_random_note;
 pub use lc_0383_random_note::*;
 
+pub mod lc_0459_repeated_substring_pattern;
+pub use lc_0459_repeated_substring_pattern::*;
+
 pub mod lc_0637_average_of_levels_in_binary_tree;
 pub use lc_0637_average_of_levels_in_binary_tree::*;
 
