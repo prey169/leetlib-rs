@@ -28,6 +28,9 @@ pub use lc_0125_valid_palindrome::*;
 // pub mod lc_0374_guess_number_higher_or_lower;
 // pub use lc_0374_guess_number_higher_or_lower::*;
 
+pub mod lc_0389_find_the_difference;
+pub use lc_0389_find_the_difference::*;
+
 pub mod lc_0383_random_note;
 pub use lc_0383_random_note::*;
 
