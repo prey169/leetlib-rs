@@ -67,5 +67,8 @@ pub use lc_1742_maxiumum_number_of_balls_in_a_box::*;
 pub mod lc_1768_merge_strings_alternatively;
 pub use lc_1768_merge_strings_alternatively::*;
 
+pub mod lc_1822_sign_of_the_product_of_an_array;
+pub use lc_1822_sign_of_the_product_of_an_array::*;
+
 pub mod lc_2894_divisible_and_non_divisible_sums_difference;
 pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
