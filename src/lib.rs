@@ -28,6 +28,9 @@ pub use lc_0125_valid_palindrome::*;
 pub mod lc_0242_valid_anagram;
 pub use lc_0242_valid_anagram::*;
 
+pub mod lc_0283_move_zeros;
+pub use lc_0283_move_zeros::*;
+
 // pub mod lc_0374_guess_number_higher_or_lower;
 // pub use lc_0374_guess_number_higher_or_lower::*;
 
