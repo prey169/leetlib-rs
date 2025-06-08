@@ -10,6 +10,9 @@ pub use lc_0002_add_two_numbers::*;
 pub mod lc_0028_find_the_index_of_the_first_occurrance_in_a_string;
 pub use lc_0028_find_the_index_of_the_first_occurrance_in_a_string::*;
 
+pub mod lc_0066_plus_one;
+pub use lc_0066_plus_one::*;
+
 pub mod lc_0088_merge_sorted_array;
 pub use lc_0088_merge_sorted_array::*;
 
