@@ -49,6 +49,9 @@ pub use lc_0459_repeated_substring_pattern::*;
 pub mod lc_0637_average_of_levels_in_binary_tree;
 pub use lc_0637_average_of_levels_in_binary_tree::*;
 
+pub mod lc_0682_baseball_game;
+pub use lc_0682_baseball_game::*;
+
 pub mod lc_0704_binary_search;
 pub use lc_0704_binary_search::*;
 
