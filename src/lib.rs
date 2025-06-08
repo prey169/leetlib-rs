@@ -25,6 +25,9 @@ pub use lc_0104_maximum_depth_of_binary_tree::*;
 pub mod lc_0125_valid_palindrome;
 pub use lc_0125_valid_palindrome::*;
 
+pub mod lc_0242_valid_anagram;
+pub use lc_0242_valid_anagram::*;
+
 // pub mod lc_0374_guess_number_higher_or_lower;
 // pub use lc_0374_guess_number_higher_or_lower::*;
 
