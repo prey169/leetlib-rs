@@ -87,3 +87,6 @@ pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
 
 pub mod lc_3442_maximum_difference_between_even_and_odd_frequency;
 pub use lc_3442_maximum_difference_between_even_and_odd_frequency::*;
+
+pub mod lc_3445_maximum_difference_between_even_and_odd_frequency_2;
+pub use lc_3445_maximum_difference_between_even_and_odd_frequency_2::*;
