@@ -85,6 +85,9 @@ pub use lc_1822_sign_of_the_product_of_an_array::*;
 pub mod lc_2894_divisible_and_non_divisible_sums_difference;
 pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
 
+pub mod lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array;
+pub use lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array::*;
+
 pub mod lc_3442_maximum_difference_between_even_and_odd_frequency;
 pub use lc_3442_maximum_difference_between_even_and_odd_frequency::*;
 
