@@ -82,6 +82,9 @@ pub use lc_1768_merge_strings_alternatively::*;
 pub mod lc_1822_sign_of_the_product_of_an_array;
 pub use lc_1822_sign_of_the_product_of_an_array::*;
 
+pub mod lc_2616_minimize_the_maxiumum_difference_of_pairs;
+pub use lc_2616_minimize_the_maxiumum_difference_of_pairs::*;
+
 pub mod lc_2894_divisible_and_non_divisible_sums_difference;
 pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
 
