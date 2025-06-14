@@ -52,6 +52,9 @@ pub use lc_0383_random_note::*;
 pub mod lc_0459_repeated_substring_pattern;
 pub use lc_0459_repeated_substring_pattern::*;
 
+pub mod lc_0509_fibonacci_number;
+pub use lc_0509_fibonacci_number::*;
+
 pub mod lc_0637_average_of_levels_in_binary_tree;
 pub use lc_0637_average_of_levels_in_binary_tree::*;
 
