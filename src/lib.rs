@@ -19,6 +19,9 @@ pub use lc_0088_merge_sorted_array::*;
 pub mod lc_0035_search_insert_position;
 pub use lc_0035_search_insert_position::*;
 
+pub mod lc_0070_climbing_stairs;
+pub use lc_0070_climbing_stairs::*;
+
 pub mod lc_0074_search_a_2d_matrix;
 pub use lc_0074_search_a_2d_matrix::*;
 
