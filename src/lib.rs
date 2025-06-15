@@ -73,6 +73,9 @@ pub use lc_0744_find_smallest_letter_greater_than_target::*;
 pub mod lc_0896_monotonic_array;
 pub use lc_0896_monotonic_array::*;
 
+pub mod lc_1432_max_difference_you_can_get_from_changing_an_integer;
+pub use lc_1432_max_difference_you_can_get_from_changing_an_integer::*;
+
 pub mod lc_1480_running_sum_of_1d_array;
 pub use lc_1480_running_sum_of_1d_array::*;
 
