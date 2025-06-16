@@ -1,5 +1,5 @@
 pub fn minimize_max(nums: Vec<i32>, p: i32) -> i32 {
-    fn get_matches(d: i32, nums: &Vec<i32>, len: usize, p: i32) -> i32 {
+    fn get_matches(d: i32, nums: &[i32], len: usize, p: i32) -> i32 {
         let mut index: usize = 1;
         let mut count = 0;
         while index < len && count < p {
@@ -21,7 +21,7 @@ pub fn minimize_max(nums: Vec<i32>, p: i32) -> i32 {
     while min_ans < maximum_ans {
         mid = min_ans + (maximum_ans - min_ans) / 2;
         println!("{mid}");
-        if get_matches(mid, &nums, len as usize, p) >= p {
+        if get_matches(mid, &nums, len, p) >= p {
             maximum_ans = mid;
         } else {
             min_ans = mid + 1;

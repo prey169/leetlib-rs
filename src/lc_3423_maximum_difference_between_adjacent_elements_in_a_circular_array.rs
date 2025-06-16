@@ -4,9 +4,8 @@ pub fn max_adjacent_distance(nums: Vec<i32>) -> i32 {
         return 0;
     }
     let mut sum = i32::MIN;
-    let mut count = 0;
     let mut first: i32 = 0;
-    for num in nums.clone() {
+    for (count, num) in nums.clone().into_iter().enumerate() {
         if count == 0 {
             first = num;
         }
@@ -26,7 +25,6 @@ pub fn max_adjacent_distance(nums: Vec<i32>) -> i32 {
                 sum = nums[count + 1] - num;
             }
         }
-        count += 1;
     }
     sum
 }

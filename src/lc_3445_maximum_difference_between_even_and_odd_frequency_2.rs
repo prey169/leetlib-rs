@@ -27,7 +27,7 @@ pub fn max_difference_2(s: String, k: i32) -> i32 {
             if i == j {
                 continue;
             }
-            let mut best = vec![i32::MAX; 4];
+            let mut best = [i32::MAX; 4];
             let mut count_i = 0;
             let mut count_j = 0;
             let mut last_i = 0;

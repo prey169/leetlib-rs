@@ -2,8 +2,8 @@ pub fn min_max_difference(num: i32) -> i32 {
     fn find_min(char_num: Vec<char>) -> i32 {
         let mut new_char: Vec<char> = vec![];
         let mut changed_char: Option<char> = None;
-        let mut char_num = char_num.iter();
-        while let Some(c) = char_num.next() {
+        let char_num = char_num.iter();
+        for c in char_num {
             if changed_char.is_none() {
                 match *c {
                     '1'..='9' => {
@@ -12,12 +12,10 @@ pub fn min_max_difference(num: i32) -> i32 {
                     }
                     _ => new_char.push(*c),
                 }
+            } else if c == &changed_char.unwrap() {
+                new_char.push('0');
             } else {
-                if c == &changed_char.unwrap() {
-                    new_char.push('0');
-                } else {
-                    new_char.push(*c)
-                }
+                new_char.push(*c)
             }
         }
         let new_char = new_char.iter().collect::<String>();
@@ -28,8 +26,8 @@ pub fn min_max_difference(num: i32) -> i32 {
     fn find_max(char_num: Vec<char>) -> i32 {
         let mut new_char: Vec<char> = vec![];
         let mut changed_char: Option<char> = None;
-        let mut char_num = char_num.iter();
-        while let Some(c) = char_num.next() {
+        let char_num = char_num.iter();
+        for c in char_num {
             if changed_char.is_none() {
                 match *c {
                     '0'..='8' => {
@@ -38,12 +36,10 @@ pub fn min_max_difference(num: i32) -> i32 {
                     }
                     _ => new_char.push(*c),
                 }
+            } else if c == &changed_char.unwrap() {
+                new_char.push('9');
             } else {
-                if c == &changed_char.unwrap() {
-                    new_char.push('9');
-                } else {
-                    new_char.push(*c)
-                }
+                new_char.push(*c)
             }
         }
 
