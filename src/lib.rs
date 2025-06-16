@@ -91,6 +91,9 @@ pub use lc_1768_merge_strings_alternatively::*;
 pub mod lc_1822_sign_of_the_product_of_an_array;
 pub use lc_1822_sign_of_the_product_of_an_array::*;
 
+pub mod lc_2016_maximum_difference_between_increasing_elements;
+pub use lc_2016_maximum_difference_between_increasing_elements::*;
+
 pub mod lc_2566_maximum_difference_by_remapping_a_digit;
 pub use lc_2566_maximum_difference_by_remapping_a_digit::*;
 
