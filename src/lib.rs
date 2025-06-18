@@ -103,6 +103,9 @@ pub use lc_2616_minimize_the_maxiumum_difference_of_pairs::*;
 pub mod lc_2894_divisible_and_non_divisible_sums_difference;
 pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
 
+pub mod lc_2966_divide_array_into_arrays_with_max_difference;
+pub use lc_2966_divide_array_into_arrays_with_max_difference::*;
+
 pub mod lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array;
 pub use lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array::*;
 
