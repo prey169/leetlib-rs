@@ -106,6 +106,9 @@ pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
 pub mod lc_2966_divide_array_into_arrays_with_max_difference;
 pub use lc_2966_divide_array_into_arrays_with_max_difference::*;
 
+pub mod lc_2966_divide_array_into_arrays_with_max_difference_optimized;
+pub use lc_2966_divide_array_into_arrays_with_max_difference_optimized::*;
+
 pub mod lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array;
 pub use lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array::*;
 
