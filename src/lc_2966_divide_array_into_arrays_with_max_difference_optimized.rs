@@ -20,13 +20,13 @@ mod test {
     #[test]
     fn ex1() {
         assert_eq!(
-            divide_array(vec![1, 3, 4, 8, 7, 9, 3, 5, 1], 2),
+            divide_array_optimized(vec![1, 3, 4, 8, 7, 9, 3, 5, 1], 2),
             vec![vec![1, 1, 3], vec![3, 4, 5], vec![7, 8, 9]]
         )
     }
 
     #[test]
     fn ex2() {
-        assert!(divide_array(vec![2, 4, 2, 2, 5, 2], 2).is_empty())
+        assert!(divide_array_optimized(vec![2, 4, 2, 2, 5, 2], 2).is_empty())
     }
 }
