@@ -10,7 +10,7 @@ pub fn divide_array_optimized(nums: Vec<i32>, k: i32) -> Vec<Vec<i32>> {
             }
         })
         .collect::<Option<Vec<Vec<i32>>>>()
-        .unwrap_or(vec![])
+        .unwrap_or_default()
 }
 
 #[cfg(test)]
