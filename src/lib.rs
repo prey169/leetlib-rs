@@ -121,5 +121,8 @@ pub use lc_3405_count_the_number_of_arrays_with_k_matching_adjacent_elements::*;
 pub mod lc_3442_maximum_difference_between_even_and_odd_frequency;
 pub use lc_3442_maximum_difference_between_even_and_odd_frequency::*;
 
+pub mod lc_3443_maximum_manhattan_distance_after_k_changes;
+pub use lc_3443_maximum_manhattan_distance_after_k_changes::*;
+
 pub mod lc_3445_maximum_difference_between_even_and_odd_frequency_2;
 pub use lc_3445_maximum_difference_between_even_and_odd_frequency_2::*;
