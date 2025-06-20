@@ -11,6 +11,8 @@ pub fn divide_array(nums: Vec<i32>, k: i32) -> Vec<Vec<i32>> {
             let next = process_chunks(&v[3..], k);
             if let Some(n) = next {
                 result.extend(n);
+            } else {
+                return None;
             }
         } else {
             return None;
