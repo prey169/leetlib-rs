@@ -9,10 +9,8 @@ pub fn divide_array(nums: Vec<i32>, k: i32) -> Vec<Vec<i32>> {
         let max = chunk.iter().max().unwrap();
         if max - min <= k {
             let next = process_chunks(&v[3..], k);
-            if next.is_none() {
-                return None;
-            } else {
-                result.extend(next.unwrap());
+            if let Some(n) = next {
+                result.extend(n);
             }
         } else {
             return None;
@@ -21,10 +19,7 @@ pub fn divide_array(nums: Vec<i32>, k: i32) -> Vec<Vec<i32>> {
     }
     let mut nums = nums;
     nums.sort_unstable();
-    match process_chunks(&nums, k) {
-        Some(ans) => ans,
-        None => Vec::new(),
-    }
+    process_chunks(&nums, k).unwrap_or_default()
 }
 
 #[cfg(test)]
