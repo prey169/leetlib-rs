@@ -112,6 +112,9 @@ pub use lc_2966_divide_array_into_arrays_with_max_difference::*;
 pub mod lc_2966_divide_array_into_arrays_with_max_difference_optimized;
 pub use lc_2966_divide_array_into_arrays_with_max_difference_optimized::*;
 
+pub mod lc_3085_minimum_deletions_to_make_string_k_special;
+pub use lc_3085_minimum_deletions_to_make_string_k_special::minimum_deletions;
+
 pub mod lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array;
 pub use lc_3423_maximum_difference_between_adjacent_elements_in_a_circular_array::*;
 
