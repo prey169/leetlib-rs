@@ -1,14 +1,12 @@
 pub fn divide_string(s: String, k: i32, fill: char) -> Vec<String> {
     //divideString -> int -> string -> char -> [String]
-    //divide
-    let chars: Vec<char> = s.chars().collect();
-    let k = k as usize;
-
-    chars
-        .chunks(k)
+    //
+    //where x y z = int string char
+    s.chars().collect::<Vec<char>>()
+        .chunks(k as usize)
         .map(|chunk| {
             let mut result: Vec<char> = chunk.to_vec();
-            while result.len() < k {
+            while result.len() < k as usize {
                 result.push(fill);
             }
             result.into_iter().collect::<String>()
