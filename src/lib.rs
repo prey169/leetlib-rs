@@ -109,8 +109,8 @@ pub use lc_2894_divisible_and_non_divisible_sums_difference::*;
 pub mod lc_2966_divide_array_into_arrays_with_max_difference;
 pub use lc_2966_divide_array_into_arrays_with_max_difference::*;
 
-pub mod lc_2966_divide_array_into_arrays_with_max_difference_optimized;
-pub use lc_2966_divide_array_into_arrays_with_max_difference_optimized::*;
+pub mod lc_2138_divide_a_string_into_groups_of_size_k;
+pub use lc_2138_divide_a_string_into_groups_of_size_k::divide_string;
 
 pub mod lc_3085_minimum_deletions_to_make_string_k_special;
 pub use lc_3085_minimum_deletions_to_make_string_k_special::minimum_deletions;
