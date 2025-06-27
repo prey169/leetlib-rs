@@ -5,7 +5,6 @@ pub fn is_palindrome(s: String) -> bool {
         .filter(|c| c.is_alphanumeric())
         .collect::<String>();
     let s_rev = s.chars().rev().collect::<String>();
-    println!("{} {}", s, s_rev);
     s_rev == s
 }
 

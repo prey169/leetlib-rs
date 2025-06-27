@@ -1,4 +1,4 @@
-pub fn check(nums2: &Vec<i32>, x1: i64, v: i64) -> i64 {
+pub fn check(nums2: &[i32], x1: i64, v: i64) -> i64 {
     let length = nums2.len();
     let mut left = 0;
     let mut right = length as i32 - 1;

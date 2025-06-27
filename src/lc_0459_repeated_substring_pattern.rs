@@ -1,5 +1,5 @@
 pub fn repeated_substring_pattern(s: String) -> bool {
-    let w = format!("{}{}", s, s);
+    let w = format!("{s}{s}");
     w[1..(w.len() - 1)].contains(&s)
 }
 

@@ -58,6 +58,9 @@ pub use lc_0509_fibonacci_number::*;
 pub mod lc_0637_average_of_levels_in_binary_tree;
 pub use lc_0637_average_of_levels_in_binary_tree::*;
 
+pub mod lc_0657_robot_return_to_origin;
+pub use lc_0657_robot_return_to_origin::*;
+
 pub mod lc_0682_baseball_game;
 pub use lc_0682_baseball_game::*;
 
