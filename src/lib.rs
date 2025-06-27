@@ -94,11 +94,17 @@ pub use lc_1822_sign_of_the_product_of_an_array::*;
 pub mod lc_2016_maximum_difference_between_increasing_elements;
 pub use lc_2016_maximum_difference_between_increasing_elements::*;
 
+pub mod lc_2040_kth_smallest_product_of_two_sorted_arrays;
+pub use lc_2040_kth_smallest_product_of_two_sorted_arrays::kth_smallest_product;
+
 pub mod lc_2200_find_all_k_distant_indices_in_an_array;
 pub use lc_2200_find_all_k_distant_indices_in_an_array::find_k_distant_indices;
 
 pub mod lc_2294_partition_array_such_that_maximum_difference_is_k;
 pub use lc_2294_partition_array_such_that_maximum_difference_is_k::*;
+
+pub mod lc_2311_longest_binary_subsequence_less_than_or_equal_to_k;
+pub use lc_2311_longest_binary_subsequence_less_than_or_equal_to_k::*;
 
 pub mod lc_2566_maximum_difference_by_remapping_a_digit;
 pub use lc_2566_maximum_difference_by_remapping_a_digit::*;
