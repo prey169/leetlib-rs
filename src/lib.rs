@@ -94,6 +94,9 @@ pub use lc_1768_merge_strings_alternatively::*;
 pub mod lc_1822_sign_of_the_product_of_an_array;
 pub use lc_1822_sign_of_the_product_of_an_array::*;
 
+pub mod lc_1957_delete_characters_to_make_fancy_string;
+pub use lc_1957_delete_characters_to_make_fancy_string::*;
+
 pub mod lc_2016_maximum_difference_between_increasing_elements;
 pub use lc_2016_maximum_difference_between_increasing_elements::*;
 
