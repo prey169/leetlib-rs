@@ -142,5 +142,5 @@ pub use lc_3442_maximum_difference_between_even_and_odd_frequency::*;
 pub mod lc_3443_maximum_manhattan_distance_after_k_changes;
 pub use lc_3443_maximum_manhattan_distance_after_k_changes::*;
 
-pub mod lc_3445_maximum_difference_between_even_and_odd_frequency_2;
-pub use lc_3445_maximum_difference_between_even_and_odd_frequency_2::*;
+pub mod lc_3477_fruits_into_baskets_2;
+pub use lc_3477_fruits_into_baskets_2::num_of_unplaced_fruits;
